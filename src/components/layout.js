@@ -33,7 +33,7 @@ const Layout = props => {
                 <Link to={`/about`}>About</Link>
               </li>
               <li className="nav-elements" role="menuitem">
-                <Link to={`/elements`}>Elements</Link>
+                <Link to={`/elements`}>Contact</Link>
               </li>
             </ul>
           </nav>
@@ -45,48 +45,49 @@ const Layout = props => {
           <div className="site-head-right">
             <div className="social-links">
               <a
-                href="https://www.facebook.com"
-                title="Facebook"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Facebook
-              </a>
-              <a
-                href="https://twitter.com"
+                href="https://www.twitter.com/ciphore"
                 title="Twitter"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 Twitter
               </a>
-              <Link
-                to={`/rss.xml`}
-                title="RSS"
+              <a
+                href="https://opensea.io/Ciphore"
+                title="OpenSea"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                RSS
-              </Link>
+                OpenSea
+              </a>
+              <a
+                href="https://medium.com/@ciphore"
+                title="Medium"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Blog
+              </a>
             </div>
           </div>
         </div>
       </header>
+
+
+
       <main id="site-main" className="site-main">
         <div id="swup" className="transition-fade">
           {children}
+          <h2>This is a test</h2>
         </div>
       </main>
+
+
+
       <footer className="site-foot">
         &copy; {new Date().getFullYear()} <Link to={`/`}>{title}</Link> &mdash;
-        Built with{" "}
-        <a
-          href="https://gatsbyjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Gatsby
-        </a>
+        Built by Oreo 🐶
+        
       </footer>
     </div>
   )

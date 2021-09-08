@@ -17,18 +17,37 @@ const BlogIndex = ({ data }, location) => {
   return (
     <Layout title={siteTitle}>
       <SEO
-        title="All posts"
-        keywords={[`blog`, `gatsby`, `javascript`, `react`]}
+        title="Home"
+        keywords={[`ciphore`, `neal pedram miyabi`, `creative director`, `marketing`]}
       />
       {/* <Bio /> */}
       {data.site.siteMetadata.description && (
+        
         <header className="page-head">
+          <div>
+          
           <h2 className="page-head-title">
+          
             {data.site.siteMetadata.description}
           </h2>
+          </div>
+          <div>
+          {/* <a href="/" className="bn3">Explore Services</a> */}
+          </div>
+          <div>Hi</div>
+          <h1>Hi</h1>
+          <h1>Hi</h1>
+          <h1>Hi</h1>
+          <h1>Hi</h1>
+          <h1>Hi</h1>
+          <h1>Hi</h1>
+          <h1>Hi</h1>
+          <h1>Hi</h1>
+          <h1>Hi</h1>
         </header>
+        
       )}
-      <div className="post-feed">
+      {/* <div className="post-feed">
         {posts.map(({ node }) => {
           postCounter++
           return (
@@ -40,7 +59,9 @@ const BlogIndex = ({ data }, location) => {
             />
           )
         })}
-      </div>
+      </div> */}
+      {/* <a href="#" class="page-head-description">BUTTON</a> */}
+      {/* <a href="/" className="bn3">Explore Services</a> */}
     </Layout>
   )
 }

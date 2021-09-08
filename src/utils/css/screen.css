@@ -25,13 +25,13 @@ production stylesheet in assets/built/screen.css using gulp dev
 /* ---------------------------------------------------------- */
 
 body {
-    font-family: 'Muli', sans-serif;
-    background: var(--color-bg);
+    font-family: 'Montserrat', sans-serif;
+    background: black;
     transition: background 0.3s ease-out;
     transition-delay: 0.25;
 }
 
-.img {
+/* .img {
     display: block;
     width: 100%;
     height: 100%;
@@ -44,7 +44,7 @@ body {
     visibility: hidden;
     position: absolute;
     text-indent: -9999px;
-}
+} */
 
 
 /* Layout
@@ -65,7 +65,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 13vw 0;
+    padding: 14vw 0;
     max-width: 70%;
     margin: auto;
     text-align: center;
@@ -97,17 +97,41 @@ body {
 }
 
 .page-head-title {
+    display: flex;
     margin: 0;
-    font-size: 4.2rem;
-    color: var(--color-base);
+    margin-bottom: 60px;
+    padding: 0 80px;
+    /* height: 800px; */
+    font-size: 7rem;
+    background-image: linear-gradient(to left, #ef008f, #6ec3f4, #7038ff, #ffba27);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  
+    
+
+    background-size: 300%;
+    background-position: -200%;
+
+    animation: animatedText 5s infinite
+    alternate-reverse;
 }
 @media (max-width: 500px) {
     .page-head-title {
         font-size: 2rem;
     }
 }
+@keyframes animatedText{
+    from {
+        background-position: 0%;
+    }
+    to {
+        background-position: 100%;
+    }
+    
+}
 
-.page-head-description {
+/* .page-head-description {
     margin: 0 0 1.6vw;
     color: color(var(--color-border) l(-20%));
     font-size: 2.2rem;
@@ -117,17 +141,17 @@ body {
     .page-head-description {
         font-size: 1.6rem;
     }
-}
+} */
 
 .site-foot {
     margin: 3vw 0 1vw;
     text-align: center;
-    color: color(var(--color-border) l(-20%));
-    font-size: 1.4rem;
+    color: white;
+    font-size: 1.3rem;
 }
 
 .site-foot a {
-    color: var(--color-base);
+    color: white;
 }
 
 
@@ -174,7 +198,7 @@ body {
     display: block;
     margin: 0;
     padding: 10px 12px;
-    color: var(--color-base);
+    color: white;
     font-weight: 600;
     opacity: 0.4;
 }
@@ -192,16 +216,17 @@ body {
     width: 100%;
 }
 
+
 .site-head-logo {
     flex-shrink: 0;
     display: block;
     padding: 10px;
-    color: var(--color-base);
+    color: white;
     font-size: 2.1rem;
     line-height: 1em;
     font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 1px;
+    text-transform: none;
+    letter-spacing: 0.7px;
 }
 
 .site-head-logo:hover {
@@ -256,7 +281,7 @@ body {
 .rss-button svg {
     margin-bottom: 1px;
     height: 2.1rem;
-    fill: var(--color-base);
+    fill: white;
 }
 
 
@@ -282,7 +307,7 @@ body {
         flex-direction: column;
         justify-content: flex-start;
         height: 40px;
-        background: rgba(255,255,255,0);
+        background: black;
         z-index: -1;
         transition: all 0.4s ease-out;
         overflow: hidden;
@@ -342,7 +367,7 @@ body {
     }
 
     .site-head-open {
-        background: rgba(255,255,255,1);
+        background: black;
         transition: background 0.5s ease-out;
         transition-delay: 0.25;
         overflow: hidden;
@@ -369,7 +394,7 @@ body {
         transform: scale(1) translateY(0px);
     }
     .site-head-open .nav-current a {
-        border-bottom: var(--color-base) 2px solid;
+        border-bottom: white 1px solid;
     }
     .site-head-open .site-head-right a {
         opacity: 0.5;
@@ -391,7 +416,7 @@ body {
 
 .post-feed {
     display: flex;
-    align-items: ;
+    align-items: center;
     flex-wrap: wrap;
 }
 
@@ -505,7 +530,7 @@ body {
 
 /* Post Content
 /* ---------------------------------------------------------- */
-
+/* 
 .post-content {
     max-width: 720px;
     margin: 0 auto;
@@ -654,7 +679,7 @@ body {
     background: color(var(--color-border) l(+10%));
     box-shadow: #fff 0 0 0 5px;
     transform: rotate(45deg);
-}
+} */
 
 .footnotes-sep {
     margin-bottom: 30px;
@@ -719,3 +744,53 @@ body {
 .page-template .post-content-body h3 {
     text-align: center;
 }
+
+.square_btn{
+    display: inline-block;
+    padding: 7px 20px;
+	border-radius: 25px;
+    text-decoration: none;
+    color: #FFF;
+    background-image: -webkit-linear-gradient(45deg, #FFC107 0%, #ff8b5f 100%);
+    background-image: linear-gradient(45deg, #FFC107 0%, #ff8b5f 100%);
+    transition: .4s;
+}
+
+.square_btn:hover {
+    background-image: -webkit-linear-gradient(45deg, #FFC107 0%, #f76a35 100%);
+    background-image: linear-gradient(45deg, #FFC107 0%, #f76a35 100%);
+}
+
+.bn3 {
+    display: block;
+    padding: 0.5em 1.7em;
+    margin: 0 auto;
+    border: 0.16em solid rgb(255, 255, 255);
+    border-radius: 2em;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+    text-shadow: 0 0.04em 0.04em rgba(255, 255, 255, 0.253);
+    text-align: center;
+    align-items: center;
+    transition: all 0.2s;
+    position: relative;
+    /* top: -550px; */
+    width: 100%;
+    min-width: 50px;
+    max-width: 200px;
+    /* white-space: normal; */
+    /* z-index: 1; */
+  }
+  
+  @media (max-width: 500px) {
+    .bn3 {
+        font-size: 2rem;
+    }
+}
+  .bn3:hover {
+    color: black;
+    background-color: rgb(255, 255, 255);
+  }
