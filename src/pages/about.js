@@ -13,40 +13,50 @@ const AboutPage = ({ data }, location) => {
 
   return (
     <Layout title={siteTitle}>
-      <SEO title="About" keywords={[`blog`, `gatsby`, `javascript`, `react`]} />
+      <SEO
+        title="How to buy NFTs"
+        keywords={[`NFT`, `how to`, `buy nft`, `react`]}
+      />
 
       <article className="post-content page-template no-image">
         <div className="post-content-body">
-          <h2 id="dynamic-styles">
-            Hi there!
-          </h2>
-          <figure className="kg-card kg-image-card kg-width-full">
+          <h2 id="dynamic-styles">How to buy an NFT</h2>
+          {/* <figure className="kg-card kg-image-card kg-width-full">
             <Img
               fluid={data.benchAccounting.childImageSharp.fluid}
               className="kg-image"
             />
             <figcaption>Large imagery is at the heart of this theme</figcaption>
-          </figure>
-          <h3 id="dynamic-styles">Dynamic styles</h3>
+          </figure> */}
+          <h3 id="dynamic-styles">Step 1: Set up your digital wallet</h3>
+          <div>
+            In order to purchase, send or receive any NFTs or Cryptocurrencies,
+            you'll need to set up a crypto wallet.
+          </div>
           <p>
-            London comes with photo-centric main layout best suited to
-            photography, graphics portfolios and other image-heavy uses.
+            To download Metamask, head over to the official{" "}
+            <a href="https://metamask.io/">Metamask</a> website for
+            instructions.
           </p>
+
+          <div>
+            To download coinbase wallet, head over to{" "}
+            <a href="https://wallet.coinbase.com/">Coinbase Wallet</a> for
+            further instructions on how to set up a wallet.
+          </div>
+          <h3 id="dynamic-styles">Step 2: Add funds to your wallet</h3>
+          <div>
+            Now that you have set up your wallet, it's time to add some Eth into
+            your wallet. You can use any exchange such as Coinbase to purchase
+            Eth.
+          </div>
+          <h3 id="dynamic-styles">
+            Step 3: Navigate to your preferred marketplace
+          </h3>
+          <h3 id="dynamic-styles">Step 4: Browse, Bid, Buy</h3>
           <p>
-            Both post and page templates are light and minimal, with all the
-            focus on the content while the design of the theme gets out of the
-            way. Beneath the hood, London enjoys the full power of the{" "}
-            <a href="https://docs.ghost.org/api/handlebars-themes/">
-              Ghost Handlebars Theme API
-            </a>{" "}
-            to provide limitless customisation options and dynamic styles.
-          </p>
-          <p>
-            Don't forget to check out the{" "}
-            <a href="https://docs.ghost.org/integrations/">
-              Ghost Integrations Directory
-            </a>{" "}
-            for more ways to integrate Ghost with your favourite services.
+            Now that you've set up your wallet, it's time to head over to an NFT
+            marketplace and buy your first NFT!
           </p>
         </div>
       </article>

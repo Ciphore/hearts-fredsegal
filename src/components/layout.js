@@ -1,5 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
+import myLogo from "./Logo.png"
 
 const Layout = props => {
   const { title, children } = props
@@ -27,25 +28,25 @@ const Layout = props => {
           <nav id="swup" class="site-head-left">
             <ul className="nav" role="menu">
               <li className="nav-home nav-current" role="menuitem">
-                <Link to={`/`}>Home</Link>
+                <Link to={`/`}>What are NFTs</Link>
               </li>
               <li className="nav-about" role="menuitem">
-                <Link to={`/about`}>About</Link>
+                <Link to={`/about`}>How to buy NFTs</Link>
               </li>
-              <li className="nav-elements" role="menuitem">
+              {/* <li className="nav-elements" role="menuitem">
                 <Link to={`/elements`}>Contact</Link>
-              </li>
+              </li> */}
             </ul>
           </nav>
           <div className="site-head-center">
-            <Link className="site-head-logo" to={`/`}>
-              {title}
-            </Link>
+            <div className="site-head-logo">
+              <img src={myLogo} width="1500" height="1500" />
+            </div>
           </div>
           <div className="site-head-right">
             <div className="social-links">
               <a
-                href="https://www.twitter.com/ciphore"
+                href="https://www.twitter.com/heartnfts"
                 title="Twitter"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -53,7 +54,7 @@ const Layout = props => {
                 Twitter
               </a>
               <a
-                href="https://opensea.io/Ciphore"
+                href="https://opensea.io/collection/heartnfts"
                 title="OpenSea"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -61,19 +62,17 @@ const Layout = props => {
                 OpenSea
               </a>
               <a
-                href="https://medium.com/@ciphore"
+                href="https://theheartproject.medium.com"
                 title="Medium"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Blog
+                Medium
               </a>
             </div>
           </div>
         </div>
       </header>
-
-
 
       <main id="site-main" className="site-main">
         <div id="swup" className="transition-fade">
@@ -82,12 +81,9 @@ const Layout = props => {
         </div>
       </main>
 
-
-
       <footer className="site-foot">
         &copy; {new Date().getFullYear()} <Link to={`/`}>{title}</Link> &mdash;
-        Built by Oreo 🐶
-        
+        Made with love
       </footer>
     </div>
   )
