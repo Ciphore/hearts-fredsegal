@@ -96,8 +96,8 @@ const BlogIndex = ({ data }, location) => {
           <span>&nbsp;&nbsp;</span>
 
           <h1>Where can I learn more about NFTs?</h1>
-          <div>If you'd like to know more about NFTs, check out {""} <a 
-          href="https://www.creativebloq.com/features/what-are-nfts">this article</a> {""} for more information.  </div>
+          <p>If you'd like to know more about NFTs, check out {""} <a 
+          href="https://www.creativebloq.com/features/what-are-nfts">this article</a> {""} for more information.  </p>
 
           {/* <hr /> */}
         </header>
