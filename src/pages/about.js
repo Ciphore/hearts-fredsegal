@@ -29,21 +29,21 @@ const AboutPage = ({ data }, location) => {
             <figcaption>Large imagery is at the heart of this theme</figcaption>
           </figure> */}
           <h3 id="dynamic-styles">Step 1: Set up your digital wallet</h3>
-          <div>
+          <p>
             In order to purchase, send or receive any NFTs or Cryptocurrencies,
             you'll need to set up a digital cryptocurrency wallet.
-          </div>
+          </p>
           <p>
             To download Metamask, head over to the official{" "}
             <a href="https://metamask.io/">Metamask</a> website for
             instructions.
           </p>
 
-          <div>
+          <p>
             To download Coinbase Wallet, head over to{" "}
             <a href="https://wallet.coinbase.com/">Coinbase Wallet</a> for
             further instructions on how to set up a Coinbase digital wallet.
-          </div>
+          </p>
           <h3 id="dynamic-styles">Step 2: Add funds to your wallet</h3>
           <div>
             Now that you've set up your wallet, it's time to add some Ethereum into
