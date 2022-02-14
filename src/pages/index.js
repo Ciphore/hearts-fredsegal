@@ -69,7 +69,7 @@ const BlogIndex = ({ data }, location) => {
             of art or collectibles. A lot of these websites have secondary
             marketplaces with a variety of NFTs, but each platform operates
             slightly differently. <a href="https://opensea.io">OpenSea</a>
-            {""} is a marketplace for NFTs that operates on Ethereum. Users can
+            {""} is the leading NFT marketplace that operates on Ethereum. Users can
             interact with the network to exchange non-fungible tokens for
             cryptocurrency. It hosts a variety of digital collectibles, from
             video game items to digital artwork.
