@@ -68,7 +68,24 @@ body {
   text-align: center;
   color: black;
 }
+.error-head {
+  height: 75vh;
+}
 
+.error-head h1 {
+  margin: 0;
+  font-size: 7rem;
+  line-height: 1.1em;
+  font-weight: var(--font-heavy);
+  letter-spacing: 10px;
+}
+
+.error-head p {
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: rgb(255, 255, 255) l(+50%);
+}
 
 
 .error-link {
@@ -81,7 +98,7 @@ body {
   display: flex;
   margin: 0;
   margin-bottom: 60px;
-  padding: 0 80px;
+  padding: 0 20px;
   /* height: 800px; */
   font-size: 7rem;
   background-image: linear-gradient(
