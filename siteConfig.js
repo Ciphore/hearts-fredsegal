@@ -1,9 +1,9 @@
 module.exports = {
-  name: 'Ciphore',
-  shortName: 'Ciphore',
-  description: 'Branding, Creative Strategy, and Visual Excellence.',
-  url: 'https://ciphore.io', // Domain of your site without prefix!
+  name: 'THPxFS',
+  shortName: 'THPxFS',
+  description: 'What are NFTs?.',
+  url: 'https://HeartsFredSegal.com', // Domain of your site without prefix!
   prefix: '/',
-  author: 'Neal Miyabi',
-  twitter: 'ciphore'
+  author: 'ciphore',
+  twitter: 'heartnfts'
 }
