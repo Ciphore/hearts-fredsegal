@@ -1,6 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
-import myLogo from "./Logo.png"
+import myLogo from "./logo.png"
 
 const Layout = props => {
   const { title, children } = props
