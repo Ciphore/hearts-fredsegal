@@ -581,16 +581,17 @@ body {
 .post-content-body h4,
 .post-content-body h5,
 .post-content-body h6 {
-  color: #1d2122;
+  color: #131f46;
 }
 
 .post-content-body li {
   word-break: break-word;
-  color: #1d2122;
+  color: #131f46;
 }
 
 .post-content-body li p {
   margin: 0;
+  color: #131f46;
 }
 
 .post-content-body iframe {
