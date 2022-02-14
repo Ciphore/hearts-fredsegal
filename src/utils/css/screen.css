@@ -110,14 +110,14 @@ body {
   );
   -webkit-background-clip: text;
   background-clip: text;
-  color: white;
+  color: transparent;
 
   background-size: 300%;
   background-position: -200%;
 
   animation: animatedText 4s infinite alternate-reverse;
 }
-@media (max-width: 500px) {
+@media (max-width: 200px) {
   .page-head-title {
     font-size: 2rem;
   }
