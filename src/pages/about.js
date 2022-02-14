@@ -55,7 +55,7 @@ const AboutPage = ({ data }, location) => {
           </h3>
           <div>
             There are many reputable NFT marketplaces out there.{" "}<a href="https://opensea.io/">OpenSea</a> and{" "}<a href="https://looksrare.org">Looksrare</a>
-            are the two most popular marketplaces for all of your non-fungible cravings.
+            {" "}are the two most popular marketplaces for all of your non-fungible cravings.
             
           </div>
           <h3 id="dynamic-styles">Step 4: Connect your Wallet, Browse & Buy</h3>
