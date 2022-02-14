@@ -84,10 +84,11 @@ const BlogIndex = ({ data }, location) => {
             users create NFTs. You don’t need to know how to make an ERC-721
             (NFT) token or have any experience with blockchain for that matter
             {". "}
-            <a href="https://superrare.com/">SuperRare</a>
-            {""} is a social network for NFTs. Each piece on the platform is
-            unique, and users can buy and sell these original pieces on its
-            website. The platform operates with Ethereum’s network, so you’ll
+           Alternatively,  <a href="https://superrare.com/">SuperRare</a>
+            {" "} is a social network for NFTs and catered more to the artists. 
+            Each piece on the platform is
+            unique, and users can buy and sell original pieces on their
+            platform. SuperRare operates with Ethereum’s network, so you’ll
             need to fund your account with Eth tokens to make your purchase.
           </div>
 
