@@ -31,7 +31,7 @@ const AboutPage = ({ data }, location) => {
           <h3 id="dynamic-styles">Step 1: Set up your digital wallet</h3>
           <div>
             In order to purchase, send or receive any NFTs or Cryptocurrencies,
-            you'll need to set up a crypto wallet.
+            you'll need to set up a digital cryptocurrency wallet.
           </div>
           <p>
             To download Metamask, head over to the official{" "}
@@ -40,23 +40,30 @@ const AboutPage = ({ data }, location) => {
           </p>
 
           <div>
-            To download coinbase wallet, head over to{" "}
+            To download Coinbase Wallet, head over to{" "}
             <a href="https://wallet.coinbase.com/">Coinbase Wallet</a> for
-            further instructions on how to set up a wallet.
+            further instructions on how to set up a Coinbase digital wallet.
           </div>
           <h3 id="dynamic-styles">Step 2: Add funds to your wallet</h3>
           <div>
-            Now that you have set up your wallet, it's time to add some Eth into
-            your wallet. You can use any exchange such as Coinbase to purchase
-            Eth.
+            Now that you've set up your wallet, it's time to add some Ethereum into
+            it. You can use any exchange such as Coinbase or Binance to purchase
+            Eth. 
           </div>
           <h3 id="dynamic-styles">
-            Step 3: Navigate to your preferred marketplace
+            Step 3: Navigate to your preferred NFT marketplace
           </h3>
-          <h3 id="dynamic-styles">Step 4: Browse, Bid, Buy</h3>
+          <div>
+            There are many reputable NFT marketplaces out there.{" "}<a href="https://opensea.io/">OpenSea</a> and{" "}<a href="https://looksrare.org">Looksrare</a>
+            are the two most popular marketplaces for all of your non-fungible cravings.
+            
+          </div>
+          <h3 id="dynamic-styles">Step 4: Connect your Wallet, Browse & Buy</h3>
           <p>
-            Now that you've set up your wallet, it's time to head over to an NFT
-            marketplace and buy your first NFT!
+            Once you're on the marketplace of your choosing, you'll see a connect 
+            wallet prompt to log in. Simply connect your wallet by allowing your 
+            digital wallet to connect to the marketplace, and shop away! Every sale
+            will prompt a transaction request to your wallet in order to make a public record of your ownership on the blockchain.
           </p>
         </div>
       </article>
