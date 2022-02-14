@@ -387,7 +387,7 @@ body {
     transform: scale(1) translateY(0px);
   }
   .site-head-open .nav-current a {
-    border-bottom: rgb(0, 0, 0) 1px solid;
+    border-bottom: white;
   }
   .site-head-open .site-head-right a {
     opacity: 0.5;
