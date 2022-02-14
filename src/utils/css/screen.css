@@ -101,7 +101,8 @@ body {
   padding: 0 80px;
   /* height: 800px; */
   font-size: 7rem;
-  background-image: linear-gradient(
+  color: #131f46 ;
+/*   background-image: linear-gradient(
     to right,
     #ee2f31,
     #172962,
@@ -119,7 +120,7 @@ body {
 }
 @media (max-width: 500px) {
   .page-head-title {
-    font-size: 1.2rem;
+    font-size: 2rem;
   }
 }
 @keyframes animatedText {
@@ -128,7 +129,7 @@ body {
   }
   to {
     background-position: 100%;
-  }
+  } */
 }
 
 /* .page-head-description {
