@@ -61,7 +61,7 @@ const BlogIndex = ({ data }, location) => {
           <span>&nbsp;&nbsp;</span>
           <span>&nbsp;&nbsp;</span>
 
-          <h1>where can I buy NFTs?</h1>
+          <h1>Where can I buy NFTs?</h1>
           <span>&nbsp;&nbsp;</span>
           <div>
             There are many marketplaces to buy and sell NFTs. Depending on which
